@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Pulling latest code...'
-                git branch: 'main', url: 'https://gitlab.com/tusharshrivastav007/CICD_setup_with_django.git'
+                git branch: 'main', url: 'https://github.com/tusharshrivastav007/CICD_setup_with_django.git'
             }
         }
 
