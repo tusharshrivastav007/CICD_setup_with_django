@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_COMPOSE_PATH = '/path/to/your/docker-compose.yml'
-        PROJECT_DIR = '/path/to/your/project'
+        DOCKER_COMPOSE_PATH = '/home/asus/Projects/CICD/django-docker-compose/docker-compose.yml'
+        PROJECT_DIR = '/home/asus/Projects/CICD/django-docker-compose'
     }
 
     stages {
         stage('Checkout') {
             steps {
                 echo 'Pulling latest code...'
-                git branch: 'main', url: 'https://gitlab.com/<your_repo>.git'
+                git branch: 'main', url: 'https://gitlab.com/tusharshrivastav007/CICD_setup_with_django.git'
             }
         }
 
