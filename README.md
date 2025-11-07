@@ -33,7 +33,7 @@ Open a bash session in a running container:
 
 # Flow for the CICD 
 # This is added by Tushar
-
+# Second time testing
 1. The docker-compose yaml file will first spin up the Gunicorn container that will run the Django project at port 8000
 
 2. The entrypoint to the *django_gunicorn* service is *entrypoint.sh*. This script will do a database migration and it will also collect the static files used by the Django project.
