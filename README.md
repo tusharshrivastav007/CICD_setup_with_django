@@ -31,7 +31,8 @@ Open a bash session in a running container:
 `docker exec -it <container ID> /bin/bash`
 
 
-# Flow
+# Flow for the CICD 
+# This is added by Tushar
 
 1. The docker-compose yaml file will first spin up the Gunicorn container that will run the Django project at port 8000
 
