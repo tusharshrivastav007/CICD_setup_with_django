@@ -37,7 +37,8 @@ Open a bash session in a running container:
 # Third time testing
 # Fourth time testing
 # Fifth  time testing
-# Sixth   time testing  (Testing the Jenkins with django  automation)
+# Sixth   time testing  (	)
+# Sixth   time testing  (Changes done with varshil	)
 1. The docker-compose yaml file will first spin up the Gunicorn container that will run the Django project at port 8000
 
 2. The entrypoint to the *django_gunicorn* service is *entrypoint.sh*. This script will do a database migration and it will also collect the static files used by the Django project.
